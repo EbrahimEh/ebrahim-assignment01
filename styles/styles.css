@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* ---g font  */
+.g-fonts {
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* ----shared style-- */
+.sh-color{
+    background-color: #4E47FF;
+}
+.sh-button{
+    background-color: #4E47FF;
+    padding: 8px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* --header */
+header{
+    max-width: 100%;
+    background-image: url('../img/Hero-bg.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    max-width: 100%;
+    margin: auto;
+}
+.navber{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+
+    
+}
+.nav-part1{
+    color: #4E47FF;
+    font-size: 1.2em;
+    
+    
+}
+.nav-part1 h2{
+
+    letter-spacing: 3px;
+    font-weight: bold;
+    
+}
+.hero-container{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-part{
+    text-align: center;
+    padding: 15px 0;
+}
+.hero-part h2{
+    font-size: 2.8em;
+    margin-bottom: 25px;
+    font-weight: 700;
+}
