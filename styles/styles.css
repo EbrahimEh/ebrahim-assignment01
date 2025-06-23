@@ -174,3 +174,29 @@ main{
     align-items: center;
     gap: 20px;
 }
+
+/* -main optional--- */
+.main-optional{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+.optional{
+    width: 80%;
+    margin: auto;
+    background-color: #FFFFFF;
+    padding: 50px 50px;
+}
+.optional h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.optional p{
+    margin-bottom: 10px;
+}
+.optional img{
+    width: 100%;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
