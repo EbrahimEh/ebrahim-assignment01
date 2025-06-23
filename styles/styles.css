@@ -20,6 +20,9 @@
     border: none;
     border-radius: 5px;
 }
+.sh-subtitle{
+    color: #66666b;
+}
 /* --header */
 header{
     max-width: 100%;
@@ -69,3 +72,61 @@ nav{
     margin-bottom: 25px;
     font-weight: 700;
 }
+
+/* ---main part  */
+main{
+    max-width: 100%;
+    margin: auto;
+    background-color: #f4f6f8;
+}
+.main-action{
+    width: 80%;
+    margin: auto;
+    padding: 30px 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-ac1 h2{
+    font-size: 1.6em;
+    margin-bottom: 8px;
+}
+.main-ac1 p{
+    margin-bottom: 20px;
+}
+.main-ac2 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 30px;
+}
+
+/* ---Main Product Users  */
+.main-p-users{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: #E5E7FF;
+    padding: 25px 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.main-p-users h1{
+    margin-top: 20px;
+    font-size: 1.8em;
+}
+.p-all-users{
+    display: flex;
+    justify-content: space-around;
+}
+.users-part .users-title{
+    color: #4E47FF;
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-size: 3em;
+    padding-top: 20px;
+}
+.users-subtitle{
+    color: #66666b;
+}
+
