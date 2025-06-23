@@ -5,7 +5,7 @@
 /* ---g font  */
 .g-fonts {
   font-family: "Michroma", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -130,3 +130,47 @@ main{
     color: #66666b;
 }
 
+/* -----main-users-rating Part */
+.main-users-rating{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding-bottom: 60px;
+}
+.main-users-rating .rating-headline{
+    margin-bottom: 30px;
+    font-size: 1.6em;
+}
+.users-all-rating{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.users-rating{
+    background-color: #ebebf5;
+    padding: 15px 10px;
+    text-align: left;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 2px black;
+}
+.users-rating .rating-stars{
+    margin-bottom: 15px;
+    color: rgb(102, 105, 97);
+}
+.users-rating .rating-subtitle{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.ratings-image img{
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 4px;
+}
+.ratings-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
